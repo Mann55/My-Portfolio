@@ -6,3 +6,162 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+body {
+  background: #2e3141 !important;
+  font-family: sans-serif, "Roboto";
+  -webkit-font-smoothing: antialiased;
+}
+
+.head {
+  width: 100%;
+  height: 50%;
+  background-color: #666262;
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-name {
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.first-line {
+  color: white;
+  margin-top: 2%;
+}
+
+.head p {
+  color: white;
+  text-align: justify;
+  padding-right: 40%;
+  padding-top: 2.5%;
+  padding-left: 0.5%;
+  font-weight: normal;
+  font-size: 1em;
+}
+
+/*
+.head img {
+  border-radius: 50%;
+  width: 25%;
+  height: 50%;
+  float: right;
+  margin-right: 5%;
+  margin-top: 2%;
+} */
+
+.manpreet-image {
+  order: 2;
+  border-radius: 50%;
+  margin-right: 10%;
+  margin-top: 1%;
+  height: 100%;
+}
+
+.flex-box h1 {
+  color: white;
+  font-size: 1.5em;
+}
+
+.flex-box h2 {
+  color: white;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.flex-box hr {
+  color: white;
+}
+
+#my-projects {
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 15%;
+}
+
+#whiteLine {
+  color: white;
+}
+
+.card-paragraph {
+  color: white;
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+.card {
+  margin-top: 10%;
+}
+
+.card-titles {
+  padding-top: 10%;
+}
+
+.heading {
+  color: #fff;
+  margin-top: 15%;
+
+  font-size: 1.5em;
+}
+
+.footer-line {
+  color: #fff;
+}
+
+.firstImg {
+  border-radius: 35%;
+}
+
+.firstImage a {
+  color: #fff;
+  font-weight: normal;
+  font-size: 0.7em;
+}
+
+.secondImg {
+  margin-top: 30%;
+}
+
+.secondImage {
+  margin-top: 1%;
+}
+
+.secondImage a {
+  color: #fff;
+  font-weight: normal;
+  font-size: 0.7em;
+}
+
+.footerLineTwo {
+  color: #fff;
+  margin-top: 10%;
+}
+
+.lastOne {
+  color: #808080;
+}
+
+@media only screen and (max-width: 800px) {
+  .manpreet-description p {
+    font-size: 0.8em;
+    text-align: justify;
+  }
+
+  .head {
+    width: 100%;
+    height: 80%;
+    background-color: #666262;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+  }
+}

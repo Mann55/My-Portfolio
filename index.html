@@ -1,22 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>My Blog</title>
-    <link
-      href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-  </head>
-  <body>
-    <!-- Add your HTML markup here -->
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>My Portfolio</title>
+  <link href="//fonts.googleapis.com/css?family=Roboto:400,500,300" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <!--Bootstrap Link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Add your HTML markup here -->
+  <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
+
+  <!-- Header -->
+
+  <div class="container">
+    <div class="row">
+     
+        <h1 class="my-name">HELLO, MY NAME IS MANPREET SINGH</h1>
+        <hr class="first-line">
+        <div class="head">
+         
+          
+          <div class="manpreet-image col-3">
+            <img  src="./manpreet.jpg" class="img-fluid" alt="Responsive image" width="100">
+          </div>
+          
+          <div class="manpreet-description col-9">
+            <p>I'm a junior web developer from Barcelona with experience in HTML5, CSS3, Javascript
+              and Angular. I have also experience with the back-end programming with php and SQL.
+              I am on my way to become a full-stack develeoper. I live in Barcelona.
+            </p>
+         
+          </div>
+          
+
+        </div>
+      </div>
+
+    </div>
+  
+
+
+  <!-- Get cards here -->
+
+  <div class="container">
+    <div class="row">
+      <h1 id="my-projects">MY PROJECTS</h1>
+      <hr id="whiteLine">
+      <h2 class="card-paragraph">Selection of web development projects I have made during my studies at Migracode
+        Barcelona.</h2>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="./karma.PNG" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Karma Project</h5>
+            <p class="card-text">This project has been done as a homework given by Migracode.</p>
+            <a href="https://github.com/Mann55" class="btn btn-primary">Go to Github</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="./refugeeBikes.PNG" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-titles">Refugee Bikes Project</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="https://github.com/Mann55" class="btn btn-primary">Go to Github</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="./migracode1.PNG" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Migracode Academy</h5>
+            <p class="card-text">The first code academy for refugees and migrants in Barcelona.
+              : open access, powered by volunteers and in collaboration with the tech and non profit sector.
+            </p>
+            <a href="https://getbootstrap.com/" class="btn btn-primary">Discover More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md">
+        <div class="heading">
+          <h4 id="footer-heading">GET IN TOUCH WITH ME</h4>
+          <hr class="footer-line">
+
+          <div class="firstImage">
+            <a class="navbar-brand" rel="home" href="https://github.com/Mann55" target="_blank"
+              title="Buy Sell Rent Everyting">
+              <img class="firstImg" style="max-width:100px; margin-top: -7px;" src="./git.PNG"> GitHub
+            </a>
+          </div>
+
+          <div class="secondImage">
+            <a class="navbar-brand" rel="home" target="_blank"
+              href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin"
+              title="Buy Sell Rent Everyting">
+              <img class="secondImg" style="max-width:100px; margin-top: -7px;" src="./linkedin.png" width="45">
+              Linkedin
+            </a>
+          </div>
+
+
+        </div>
+        <hr class="footerLineTwo">
+      </div>
+
+      <p><span class="lastOne">Barcelona, 2021</span></p>
+    </div>
+  </div>
+
+</body>
+
 </html>
